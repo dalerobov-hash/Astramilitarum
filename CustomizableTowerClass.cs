@@ -20,7 +20,7 @@ namespace CustomizableTower
 {
     internal class CustomizableTowerClass : ModTower
     {
-        public override TowerSet TowerSet => TowerSet.Primary;
+        public override TowerSet TowerSet => TowerSet.Military;
 
         public override string BaseTower => BaseTowerId;
 
@@ -34,7 +34,7 @@ namespace CustomizableTower
         public override ParagonMode ParagonMode => ParagonMode.Base555;
         public override string Icon => "CustomizedTower-Portrait";
         public override string Portrait => "CustomizedTower-Portrait";
-        public override string DisplayName => "Customizable Tower";
+        public override string DisplayName => "Imperial Guardsmonkey";
         public override string Description => "Please don't use this in competitive modes, one: it could get your account flagged, and two: it ruins the fun for others.";
 
         internal static int TotalDamage = Damage;
