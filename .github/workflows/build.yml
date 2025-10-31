@@ -118,6 +118,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ${{ env.BLOONSTD6 }}/Mods/${{ env.PROJECT_NAME }}.dll
-          body_path: ${{ env.PROJECT_NAME }}/LATEST.md
+          files: ${{ env.BLOONSTD6 }}/Mods/Astramilitarum.dll
+          body_path: Astramilitarum/LATEST.md
           fail_on_unmatched_files: true
