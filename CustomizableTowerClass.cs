@@ -35,7 +35,7 @@ namespace CustomizableTower
         public override string Icon => "CustomizedTower-Portrait";
         public override string Portrait => "CustomizedTower-Portrait";
         public override string DisplayName => "Imperial Guardsmonkey";
-        public override string Description => "Please don't use this in competitive modes, one: it could get your account flagged, and two: it ruins the fun for others.";
+        public override string Description => "Slow firing, but peirces 3 balloons and pops 2 layers at a time!";
 
         internal static int TotalDamage = Damage;
 
