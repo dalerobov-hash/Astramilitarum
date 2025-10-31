@@ -4,7 +4,7 @@
         <RootNamespace>CustomizableTower</RootNamespace>
         <Configurations>Debug;Release</Configurations>
         <Nullable>enable</Nullable>
-        <AssemblyName>Astramilitarum</AssemblyName>
+        <AssemblyName>CustomizableTower</AssemblyName>
         <LangVersion>latest</LangVersion>
         <Optimize>False</Optimize>
         <DebugType>embedded</DebugType>
